@@ -1,0 +1,202 @@
+.bg{
+    background-image:url(img/60.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    height: 540px;
+}
+.d{
+	display: inline-block;
+}
+.bg2{
+	background-color: rgba(70, 70, 70, 0.5);
+    height: 540px;
+}
+.anim{
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    top: 40%;
+    right: 20px;
+    background-color: rgba(10, 10, 200, 0.9);
+    border-radius: 15px;
+    animation: 1.5s UpDown linear infinite;
+    transition: 1s all;
+}
+.anim:hover{
+    transform: rotate(360deg);
+    animation: none;
+}
+@keyframes UpDown{
+    0%{
+        top: 40%;
+    }
+    50%{
+        top: 45%;
+    }
+    100%{
+        top: 40%;
+    }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.media2 a, .media a
+{
+    color:white;
+    text-decoration: none;
+}
+@media (max-width: 700px)
+{
+    .media{
+        display: none!important;
+    }
+    .media2{
+        display: block!important;
+    }
+}
+@media (max-width: 1200px)
+{
+    .media3{
+        display: none;
+    }
+}     
+@media ( max-width: 1000px)
+{
+    .media4{
+        display: none;
+    }
+}
+@media (max-width: 995px)
+{
+      .media5{
+        margin-left: -120px!important;
+      }
+}
+@media (max-width: 770px)
+{
+    .media7{
+        display: none!important;
+    }
+}
+@media (max-width: 1100px)
+{
+    .media8{
+        display: none!important;
+    }
+}
+@media (max-width: 860px)
+{
+    .media9{
+        display: none!important;
+        
+    }
+}
+@media (max-width: 660px)
+{
+    .media10{
+        display: none!important;
+        
+    }
+}
+.bg3{
+     background-image:url(img/9a.png);
+     background-size: cover;
+    height: 300px;
+    width: 350px;
+    border: 10px white solid;   
+}
+.bg4{
+     background-image:url(img/2a.png);
+     background-size: cover;
+    height: 300px;
+    width: 350px;
+    border: 10px white solid;  
+}
+.bg5{
+     background-image:url(img/6a.png);
+     background-size: cover;
+    height: 300px;
+    width: 350px;  
+    border: 10px white solid;
+}
+.bg6{
+    background-image:url(img/90a.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    height: 1300px;
+}
+.bg7{
+    background-color: rgba(50, 50, 50, 0.3);
+    height: 906px;
+}
+.bg8{
+    background-image:url(img/20a.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+     border-top: 10px black solid;
+    border-right: 9px black solid;
+    border-left: 12px black solid; 
+
+}
+.bg9{
+    background-image:url(img/23a.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+     border-top: 10px black solid;
+    border-left: 12px black solid;
+    border-right: 9px black solid;
+
+}
+.bg10{
+    background-image:url(img/21a.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+     border-top: 10px black solid;
+    border-left: 12px black solid;
+    border-right: 9px black solid;
+
+}
+.bg11{
+    background-image:url(img/22a.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-top: 10px black solid;
+    border-left: 12px black solid;
+    border-right: 9px black solid;
+}
+.bg12{
+    background-color:transparent;
+
+}
+.bg13{
+    background-color: rgba(50, 50, 50, 0.7);
+    height: 440px;
+}
+.bg14{
+    background-color: rgba(70, 70, 70, 1.0);
+    height: 500px;
+}
+.bg15{
+    background-image: url(img/100a.png);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+}
+.bg14{
+    background-color: rgba(70, 70, 70, 1.0);
+    height: 500px;
+}
